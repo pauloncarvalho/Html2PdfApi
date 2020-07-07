@@ -5,15 +5,131 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Fonts\arial.ttf" />
+    <None Remove="Fonts\arialbd.ttf" />
+    <None Remove="Fonts\arialbi.ttf" />
+    <None Remove="Fonts\ariali.ttf" />
+    <None Remove="Fonts\ARIALN.TTF" />
+    <None Remove="Fonts\ARIALNB.TTF" />
+    <None Remove="Fonts\ARIALNBI.TTF" />
+    <None Remove="Fonts\ARIALNI.TTF" />
+    <None Remove="Fonts\ariblk.ttf" />
     <None Remove="Fonts\calibri.ttf" />
+    <None Remove="Fonts\calibrib.ttf" />
+    <None Remove="Fonts\calibrii.ttf" />
     <None Remove="Fonts\calibril.ttf" />
+    <None Remove="Fonts\calibrili.ttf" />
+    <None Remove="Fonts\calibriz.ttf" />
+    <None Remove="Fonts\segoeui.ttf" />
+    <None Remove="Fonts\segoeuib.ttf" />
+    <None Remove="Fonts\segoeuii.ttf" />
+    <None Remove="Fonts\segoeuil.ttf" />
+    <None Remove="Fonts\segoeuisl.ttf" />
+    <None Remove="Fonts\segoeuiz.ttf" />
+    <None Remove="Fonts\seguibl.ttf" />
+    <None Remove="Fonts\seguibli.ttf" />
+    <None Remove="Fonts\seguili.ttf" />
+    <None Remove="Fonts\seguisb.ttf" />
+    <None Remove="Fonts\seguisbi.ttf" />
+    <None Remove="Fonts\seguisli.ttf" />
+    <None Remove="Fonts\verdana.ttf" />
+    <None Remove="Fonts\verdanab.ttf" />
+    <None Remove="Fonts\verdanai.ttf" />
+    <None Remove="Fonts\verdanaz.ttf" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Fonts\arial.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\arialbd.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\arialbi.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\ariali.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\ARIALN.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\ARIALNB.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\ARIALNBI.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\ARIALNI.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\ariblk.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Fonts\calibri.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Fonts\calibrib.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\calibrii.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Fonts\calibril.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\calibrili.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\calibriz.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\segoeui.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\segoeuib.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\segoeuii.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\segoeuil.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\segoeuisl.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\segoeuiz.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\seguibl.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\seguibli.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\seguili.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\seguisb.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\seguisbi.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\seguisli.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\verdana.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\verdanab.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\verdanai.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\verdanaz.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

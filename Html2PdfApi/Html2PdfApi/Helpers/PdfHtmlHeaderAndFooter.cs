@@ -27,8 +27,7 @@ namespace Html2PdfApi.Helpers
 
             ConverterProperties properties = new ConverterProperties();
             DefaultFontProvider defaultFontProvider = new DefaultFontProvider(true, true, true);
-            defaultFontProvider.AddFont(FontProgramFactory.CreateFont("./Fonts/calibri.ttf"));
-            defaultFontProvider.AddFont(FontProgramFactory.CreateFont("./Fonts/calibril.ttf"));
+            defaultFontProvider.AddDirectory("./Fonts/");
             properties.SetFontProvider(defaultFontProvider);
 
             using (var pdfWriter = new PdfWriter(memoryStream))
@@ -108,8 +107,7 @@ namespace Html2PdfApi.Helpers
 
                 ConverterProperties properties = new ConverterProperties();
                 DefaultFontProvider defaultFontProvider = new DefaultFontProvider(true, true, true);
-                defaultFontProvider.AddFont(FontProgramFactory.CreateFont("./Fonts/calibri.ttf"));
-                defaultFontProvider.AddFont(FontProgramFactory.CreateFont("./Fonts/calibril.ttf"));
+                defaultFontProvider.AddDirectory("./Fonts/");
                 properties.SetFontProvider(defaultFontProvider);
 
                 foreach (IElement element in HtmlConverter.ConvertToElements(pageFooter, properties))
