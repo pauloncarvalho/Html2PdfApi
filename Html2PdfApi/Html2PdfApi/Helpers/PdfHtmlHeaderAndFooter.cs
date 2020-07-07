@@ -1,6 +1,8 @@
 ﻿using iText.Html2pdf;
 using iText.Html2pdf.Resolver.Font;
+using iText.IO.Font;
 using iText.Kernel.Events;
+using iText.Kernel.Font;
 using iText.Kernel.Geom;
 using iText.Kernel.Pdf;
 using iText.Kernel.Pdf.Canvas;
@@ -24,7 +26,10 @@ namespace Html2PdfApi.Helpers
             MemoryStream memoryStream = new MemoryStream();
 
             ConverterProperties properties = new ConverterProperties();
-            properties.SetFontProvider(new DefaultFontProvider(true, true, true));
+            DefaultFontProvider defaultFontProvider = new DefaultFontProvider(true, true, true);
+            defaultFontProvider.AddFont(FontProgramFactory.CreateFont("./Fonts/calibri.ttf"));
+            defaultFontProvider.AddFont(FontProgramFactory.CreateFont("./Fonts/calibril.ttf"));
+            properties.SetFontProvider(defaultFontProvider);
 
             using (var pdfWriter = new PdfWriter(memoryStream))
             {
@@ -102,7 +107,10 @@ namespace Html2PdfApi.Helpers
                 string pageFooter = _footer.Replace("{pageNumber}", pdf.GetPageNumber(page).ToString());
 
                 ConverterProperties properties = new ConverterProperties();
-                properties.SetFontProvider(new DefaultFontProvider(true, true, true));
+                DefaultFontProvider defaultFontProvider = new DefaultFontProvider(true, true, true);
+                defaultFontProvider.AddFont(FontProgramFactory.CreateFont("./Fonts/calibri.ttf"));
+                defaultFontProvider.AddFont(FontProgramFactory.CreateFont("./Fonts/calibril.ttf"));
+                properties.SetFontProvider(defaultFontProvider);
 
                 foreach (IElement element in HtmlConverter.ConvertToElements(pageFooter, properties))
                 {

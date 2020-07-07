@@ -5,6 +5,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Fonts\calibri.ttf" />
+    <None Remove="Fonts\calibril.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Fonts\calibri.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\calibril.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="itext7" Version="7.1.11" />
     <PackageReference Include="itext7.pdfhtml" Version="3.0.0" />
   </ItemGroup>
